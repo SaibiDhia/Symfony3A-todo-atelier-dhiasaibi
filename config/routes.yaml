@@ -1,0 +1,4 @@
+teacher_show:
+    path: /{name}
+    controller: App\Controller\TeacherController::showTeacher
+    methods: [GET]
